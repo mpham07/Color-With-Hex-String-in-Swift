@@ -15,7 +15,7 @@ struct COLORS {
     
     
     // Function helpers
-    private static func colorWithHexString(_ hexString: String, alpha: CGFloat? = 1.0) -> UIColor {
+    static func colorWithHexString(_ hexString: String, alpha: CGFloat? = 1.0) -> UIColor {
         
         let hexint = Int(intFromHexString(hexString))
         let red = CGFloat((hexint & 0xff0000) >> 16) / 255.0
