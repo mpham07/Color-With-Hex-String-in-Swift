@@ -9,10 +9,10 @@ static let NEWCOLOR = colorWithHexString("new hex number")
 or
 ```swift
 extension COLORS {
-    static let NEWCOLOR = colorWithHexString("AB6426")
+    static let NEWCOLOR = colorWithHexString("new hex number")
 }
 ```
 - Using
 ```swift
-let newColor = Colors.NEWCOLOR
+let newColor = COLORS.NEWCOLOR
 ```
